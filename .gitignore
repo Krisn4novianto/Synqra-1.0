@@ -1,0 +1,24 @@
+# Environment & credentials
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+
+# Generated SQL & output
+**/output/
+*.sql
+
+# Logs & temporary files
+*.log
+*.tmp
